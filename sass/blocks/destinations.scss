@@ -1,0 +1,90 @@
+.destinations {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.destinations__slogan {
+  font-size: 30px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.destinations__description {
+  color: #717171;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+.destinations__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.destinations__item {
+  position: relative;
+  margin-bottom: 30px;
+
+  img {
+    vertical-align: bottom;
+    border-radius: 4px;
+  }
+}
+
+.destinations__link {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 63%, rgba(0, 0, 0, 0) 100%);
+  padding: 25px;
+  align-items: flex-start;
+  border-radius: 4px;
+  transition: 0.25s;
+
+  &:hover {
+    box-shadow: 0px 12px 20px 0px rgba(0,0,0,0.30);
+    transition: 0.25s;
+  }
+}
+
+.destinations__number-boats {
+  box-sizing: border-box;
+  margin-bottom: auto;
+  min-width: 85px;
+  padding-left: 40px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background-color: $accent-color;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.destinations__city {
+  font-size: 30px;
+  line-height: 40px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.destionations__country {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.destinations__more {
+  display: flex;
+  justify-content: space-around;
+}

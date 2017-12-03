@@ -6,8 +6,8 @@ body {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -40,6 +40,7 @@ ul {
 }
 
 .container {
+  box-sizing: content-box;
   width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
