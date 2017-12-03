@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="fonts/opensans-regular.woff2" as="font">
+  <link rel="preload" href="fonts/opensans-semibold.woff2" as="font">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+  <h1 class="visually-hidden">Аренда лодок NAVA</h1>
+
+  <nav class="main-nav">
+    <a class="main-nav__logo" href="#">
+      <picture>
+        <img src="img/logo@1x.png" srcset="img/logo@2x.png 2x" width="166" height="33" alt="Логотип компании NAVA">
+      </picture>
+    </a>
+    <ul class="main-nav__page">
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">Top destinations</a>
+      </li>
+      <li class="main-nav__item">
+        <a class="main-nav__link" href="#">Add your boat</a>
+      </li>
+    </ul>
+    <ul class="main-nav__user">
+      <li class="main-nav__item">
+        <a class="main-nav__link  button" href="#">Sign up</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <p class="main-header__intro">
+      <b class="main-header__slogan">Reserve a boat now!</b>
+      and set your sails into paradise!
+    </p>
+
+    <form class="search-form" action="#">
+      <input class="search-form__field" type="search" placeholder="What is your destination sailor?">
+      <button class="button  button--search" type="button">Find a boat</button>
+    </form>
+  </div>
+</header>
+
+<section class="features">
+  <h2 class="visually-hidden">Преимущества</h2>
+  <div class="container">
+
+    <table class="features__stats">
+      <tr>
+        <td class="features__value">2,300</td>
+        <td class="features__desc">Destinations</td>
+      </tr>
+      <tr>
+        <td class="features__value">1,300</td>
+        <td class="features__desc">Cities</td>
+      </tr>
+      <tr>
+        <td class="features__value">35,000</td>
+        <td class="features__desc">Boats</td>
+      </tr>
+      <tr>
+        <td class="features__value">50,000</td>
+        <td class="features__desc">Sailors</td>
+      </tr>
+    </table>
+  </div>
+
+</section>
+
+</body>
+</html>

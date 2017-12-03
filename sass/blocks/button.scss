@@ -1,0 +1,47 @@
+.button {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  padding: 10px 40px;
+  // white-space: nowrap; // проверить на переполнение
+  vertical-align: middle;
+  user-select: none;
+  text-align: center;
+  font-size: 1em; // уточнять
+  font-family: inherit;
+  //line-height: 400; // уточнять
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 3px; // Уточнять
+  border: 1px solid #ffffff; // Уточнять
+  background-color: transparent; // Уточнять
+  background-image: none;
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    background-color: $accent-color;
+    border: 1px solid $accent-color; // Уточнять
+  }
+
+  &:active {
+
+  }
+
+  &.disabled,
+  &:disabled {
+    border-color: #333;
+    background-color: #333;
+    opacity: 0.7; // Уточнять
+    cursor: not-allowed;
+  }
+}
+
+.button--search {
+  background-color: $accent-color;
+  border: 1px solid $accent-color;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  flex-grow: 1;
+}

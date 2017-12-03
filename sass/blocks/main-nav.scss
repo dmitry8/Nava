@@ -1,0 +1,38 @@
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1250px;
+  margin: 0 auto;
+  margin-bottom: 220px;
+}
+
+.main-nav__logo {
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+  margin-right: auto;
+}
+
+.main-nav__page {
+  display: flex;
+}
+
+.main-nav__item {
+  margin-right: 50px;
+}
+
+.main-nav__link {
+  font-weight: 600;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  &:hover {
+    border-bottom: 1px solid $accent-color;
+  }
+}
+
+.main-nav__user .main-nav__item {
+  margin-right: 0;
+}

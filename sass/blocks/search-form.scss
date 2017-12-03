@@ -1,0 +1,15 @@
+.search-form {
+  margin: 0 auto;
+  width: 770px;
+  //background-color: #9fc1ff;
+  display: flex;
+}
+
+.search-form__field {
+  //width: 570px;
+  padding: 20px 30px;
+  border: none;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  flex-grow: 5;
+}
