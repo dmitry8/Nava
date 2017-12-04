@@ -1,0 +1,41 @@
+.lease {
+  background-color: #1B0209;
+  background-image: url(../img/lease-bg@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  padding-top: 170px;
+  display: flex;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url(../img/lease-bg@2x.jpg);
+    background-size: 2000px auto;
+  }
+}
+
+.lease__slogan {
+  font-size: 72px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 75px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 27px;
+}
+
+.lease__description {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 22px;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.lease__button-wrapper {
+  display: flex;
+  justify-content: space-around;
+}

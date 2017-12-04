@@ -2,7 +2,7 @@
   box-sizing: border-box;
   display: inline-block;
   margin: 0;
-  padding: 10px 40px;
+  padding: 12px 40px;
   // white-space: nowrap; // проверить на переполнение
   vertical-align: middle;
   user-select: none;
@@ -55,4 +55,9 @@
     color: #ffffff;
     transition: 0.25s;
   }
+}
+
+.button--lease {
+  background-color: $accent-color;
+  border: 1px solid $accent-color;
 }
