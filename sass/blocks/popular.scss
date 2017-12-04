@@ -1,9 +1,9 @@
-.destinations {
-  padding-top: 50px;
+.popular {
+  padding-top: 100px;
   padding-bottom: 80px;
 }
 
-.destinations__slogan {
+.popular__title {
   font-size: 30px;
   line-height: 28px;
   text-transform: uppercase;
@@ -12,31 +12,50 @@
   margin-bottom: 25px;
 }
 
-.destinations__description {
+.popular__description {
   color: #717171;
   text-align: center;
   margin: 0;
   margin-bottom: 80px;
 }
 
-.destinations__list {
+.popular__more {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.popular__price {
+  box-sizing: border-box;
+  margin-bottom: auto;
+  min-width: 100px;
+  padding: 15px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background-color: $accent-color;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.popular__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 80px;
 }
 
-.destinations__item {
+.popular__item {
   position: relative;
   margin-bottom: 30px;
 
   img {
     vertical-align: bottom;
-    border-radius: 4px;
   }
 }
 
-.destinations__link {
+.popular__link {
   box-sizing: border-box;
   position: absolute;
   top: 0;
@@ -56,38 +75,26 @@
   }
 }
 
-.destinations__number-boats {
-  box-sizing: border-box;
-  margin-bottom: auto;
-  min-width: 85px;
-  padding-left: 40px;
-  padding-right: 15px;
-  height: 42px;
-  display: flex;
-  align-items: center;
-  border-radius: 4px;
-  background-color: $accent-color;
-  color: #ffffff;
-  font-weight: 600;
-}
-
-.destinations__city {
+.popular__model-boat {
   font-size: 30px;
   line-height: 40px;
   color: #ffffff;
   margin: 0;
 }
 
-.destionations__country {
+.popular__city,
+.popular__berth {
+  padding-left: 22px;
   margin: 0;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
-  padding-left: 22px;
 }
 
-.destinations__more {
-  margin: 0;
+.popular__city {
+  margin-right: 30px;
+}
+
+.popular__attribute {
   display: flex;
-  justify-content: space-around;
 }
