@@ -9,12 +9,13 @@
   width: 100%;
   border-collapse: collapse;
   border-radius: 4px;
-  box-shadow: 0px 12px 20px 0px rgba(0,0,0,0.30);
 
   tbody {
     display: flex;
     padding: 30px;
     justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 0px 12px 20px 0px rgba(0,0,0,0.30);
   }
 
   tr {

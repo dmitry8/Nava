@@ -69,6 +69,21 @@
   background-color: $accent-color;
   color: #ffffff;
   font-weight: 600;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 17px;
+    height: 17px;
+    background-color: transparent;
+    left: 13px;
+    bottom: 13px;
+    background-image: url(../img/svg/icon-boat.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+  }
 }
 
 .destinations__city {
@@ -83,7 +98,22 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
-  padding-left: 22px;
+  padding-left: 27px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    left: 0;
+    bottom: 7px;
+    background-image: url(../img/svg/icon-geo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+  }
 }
 
 .destinations__more {

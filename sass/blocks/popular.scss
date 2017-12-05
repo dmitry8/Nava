@@ -84,15 +84,47 @@
 
 .popular__city,
 .popular__berth {
-  padding-left: 22px;
+  padding-left: 27px;
   margin: 0;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+  position: relative;
 }
 
 .popular__city {
   margin-right: 30px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    left: 0;
+    bottom: 7px;
+    background-image: url(../img/svg/icon-geo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+  }
+}
+
+.popular__berth {
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    left: 0;
+    bottom: 7px;
+    background-image: url(../img/svg/icon-berth.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+  }
 }
 
 .popular__attribute {
