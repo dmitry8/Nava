@@ -4,6 +4,7 @@
   "private": true,
   "description": "Nava",
   "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "6.7.x",
     "browser-sync": "2.18.8",
     "css-mqpacker": "^5.0.1",
@@ -20,10 +21,10 @@
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.1.0",
     "gulp-wait": "0.0.2",
+    "gulp-webp": "^2.3.0",
     "run-sequence": "^1.2.2",
     "stylelint": "8.1.x",
-    "stylelint-config-htmlacademy": "0.1.x",
-    "@htmlacademy/editorconfig-cli": "1.x"
+    "stylelint-config-htmlacademy": "0.1.x"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
