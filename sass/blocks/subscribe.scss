@@ -1,0 +1,25 @@
+.subscribe {
+  width: 450px;
+  padding-right: 50px;
+}
+
+.subscribe__title {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.subscribe__form {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.subscribe__field {
+  padding: 15px 25px;
+  border: none;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  flex-grow: 5;
+}
+
