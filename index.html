@@ -2,12 +2,11 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NAVA</title>
   <link rel="preload" href="fonts/opensans-regular.woff2" as="font">
   <link rel="preload" href="fonts/opensans-semibold.woff2" as="font">
   <!-- build:css -->
-  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <!-- endbuild -->
 </head>
 <body>
@@ -43,7 +42,8 @@
     </p>
 
     <form class="search-form" action="#">
-      <input class="search-form__field" type="search" placeholder="What is your destination sailor?">
+      <label class="visually-hidden" for="search">Поле ввода для поиска лодок</label>
+      <input class="search-form__field" id="search" type="search" placeholder="What is your destination sailor?">
       <button class="button  button--search" type="button">Find a boat</button>
     </form>
   </div>
@@ -365,7 +365,8 @@
       <div class="subscribe">
         <h3 class="subscribe__title">Subscribe to newsletter</h3>
         <form class="subscribe__form" action="#">
-          <input class="subscribe__field" type="email" placeholder="Your email adress">
+          <label class="visually-hidden" for="subscribe">Поле ввода для вашей электронной почты</label>
+          <input class="subscribe__field" id="subscribe" type="email" placeholder="Your email adress">
           <button class="button  button--subscribe" type="button">Subscribe</button>
         </form>
 

@@ -1,5 +1,5 @@
 // "use strict";
-//
+
 // var gulp = require("gulp");
 // var sass = require("gulp-sass");
 // var plumber = require("gulp-plumber");
@@ -7,7 +7,7 @@
 // var autoprefixer = require("autoprefixer");
 // var server = require("browser-sync").create();
 // var wait = require("gulp-wait");
-//
+
 // gulp.task("style", function() {
 //   gulp.src("sass/style.scss")
 //     .pipe(wait(100))
@@ -21,7 +21,7 @@
 //     .pipe(gulp.dest("css"))
 //     .pipe(server.stream());
 // });
-//
+
 // gulp.task("serve", ["style"], function() {
 //   server.init({
 //     server: ".",
@@ -30,7 +30,7 @@
 //     cors: true,
 //     ui: false
 //   });
-//
+
 //   gulp.watch("sass/**/*.{scss,sass}", ["style"]);
 //   gulp.watch("*.html").on("change", server.reload);
 // });
@@ -85,7 +85,7 @@ gulp.task("images", function() {
 });
 
 gulp.task("webp", function () {
-  return gulp.src("img/**/*.{png,jpg}")
+  return gulp.src("build/img/**/*.{png,jpg}")
     .pipe(webp({quality: 90}))
     .pipe(gulp.dest("build/img"));
 })
